@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-api" />
+        <module name="cloud-dept-8001" />
+        <module name="cloud-eureka-7001" />
+        <module name="eureka-7002" />
+        <module name="eureka-7003" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-provider-8001" target="1.8" />
+      <module name="springcloud-study" target="1.8" />
+      <module name="springcloud-study-providerdept-8001" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
