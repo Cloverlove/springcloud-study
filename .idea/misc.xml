@@ -9,7 +9,9 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/cloud-cosumer-80/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-provider-8001/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-study-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-study-providerdept-8001/pom.xml" />
       </set>

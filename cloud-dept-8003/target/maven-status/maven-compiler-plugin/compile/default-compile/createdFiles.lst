@@ -1,0 +1,5 @@
+com\clover\springcloud\controller\DeptController8003.class
+com\clover\springcloud\dao\DeptDao.class
+com\clover\springcloud\service\DeptService.class
+com\clover\springcloud\DeptProvider8003.class
+com\clover\springcloud\service\Impl\DeptServiceImpl.class

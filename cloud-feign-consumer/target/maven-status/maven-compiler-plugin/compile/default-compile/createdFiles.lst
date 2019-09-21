@@ -1,0 +1,3 @@
+com\clover\springcloud\controller\CloudFeignController.class
+com\clover\springcloud\Feign_App.class
+com\clover\springcloud\cfgbeans\ConfigBean.class

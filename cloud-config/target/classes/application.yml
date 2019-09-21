@@ -1,0 +1,13 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: springcloud-study-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Cloverlove/springcloud-config.git
+          search-paths: config-repo
+          username: Cloverlove
+          password: HuXuDong0804

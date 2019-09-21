@@ -4,13 +4,10 @@ server:
 
 #数据库信息配置
 spring:
-  cloud:
-    bootstrap:
-      enabled: false
   application:
-    name: cloud-dept  #应用名称
+    name: clover-dept
   datasource:
-    url: jdbc:mysql://localhost:3306/study?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&verifyServerCertificate=false&useSSL=false
+    url: jdbc:mysql://localhost:3306/study
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
@@ -37,7 +34,7 @@ spring:
 #Mybatis配置
 mybatis:
   mapper-locations: classpath:mapper/*.xml
-  type-aliases-package: com.demo.entities
+  type-aliases-package: com.clover.springcloud.entities
   configuration:
     map-underscore-to-camel-case: true #开启驼峰命名
     cache-enabled: true #开启二级缓存
@@ -48,7 +45,7 @@ eureka:
       defaultZone: eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
   instance:
     #服务实例名称修改
-    instance-id: study-springcloud-dept8001
+    instance-id: clover-dept8001
     #访问路径显示IP地址
     prefer-ip-address: true
 

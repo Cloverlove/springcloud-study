@@ -1,4 +1,5 @@
-com\demo\service\DeptClientServiceFallBackFactory$1.class
-com\demo\entities\DeptEntity.class
-com\demo\service\DeptClientServiceFallBackFactory.class
-com\demo\service\DeptClientService.class
+com\clover\springcloud\service\DeptClientService.class
+com\clover\springcloud\service\DeptClientServiceFallBackFactory.class
+com\clover\springcloud\util\Swagger2Config.class
+com\clover\springcloud\entities\DeptEntity.class
+com\clover\springcloud\service\DeptClientServiceFallBackFactory$1.class

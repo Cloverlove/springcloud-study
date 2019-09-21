@@ -1,3 +1,4 @@
-D:\springcloud-study\cloud-api\src\main\java\com\demo\service\DeptClientService.java
-D:\springcloud-study\cloud-api\src\main\java\com\demo\entities\DeptEntity.java
-D:\springcloud-study\cloud-api\src\main\java\com\demo\service\DeptClientServiceFallBackFactory.java
+D:\springcloud-study\cloud-api\src\main\java\com\clover\springcloud\service\DeptClientServiceFallBackFactory.java
+D:\springcloud-study\cloud-api\src\main\java\com\clover\springcloud\entities\DeptEntity.java
+D:\springcloud-study\cloud-api\src\main\java\com\clover\springcloud\util\Swagger2Config.java
+D:\springcloud-study\cloud-api\src\main\java\com\clover\springcloud\service\DeptClientService.java

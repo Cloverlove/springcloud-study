@@ -7,14 +7,25 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-api" />
+        <module name="cloud-config" />
+        <module name="cloud-config3355" />
+        <module name="cloud-consumer-80" />
         <module name="cloud-dept-8001" />
+        <module name="cloud-dept-8002" />
+        <module name="cloud-dept-8003" />
         <module name="cloud-eureka-7001" />
+        <module name="cloud-feign-consumer" />
+        <module name="cloud-hystrix" />
+        <module name="cloud-study-zuul" />
         <module name="eureka-7002" />
         <module name="eureka-7003" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cloud-cosumer-80" target="1.8" />
+      <module name="cloud-feign-dept" target="1.5" />
       <module name="cloud-provider-8001" target="1.8" />
+      <module name="cloud-study-consumer" target="1.8" />
       <module name="springcloud-study" target="1.8" />
       <module name="springcloud-study-providerdept-8001" target="1.8" />
     </bytecodeTargetLevel>
